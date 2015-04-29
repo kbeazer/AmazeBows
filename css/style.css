@@ -4,11 +4,11 @@ body{
 }
 .container{
 	width: 80%;
-	background-color: green;
+	background-color: #bbf2f3;
 }
 .amazeLogo{
 	max-width: 100%;
 }
-.features{
+.featImage{
 	width: 100%;
 }
