@@ -4,6 +4,7 @@ body{
 }
 .container{
 	width: 80%;
+	margin: 0 auto;
 	background-color: #bbf2f3;
 }
 .amazeLogo{
