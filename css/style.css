@@ -29,7 +29,9 @@ a{
 	width: 100%;
 	height: 350px;
 }
-
+.hide{
+	display: none;
+}
 
 /*<----- Media Queries ----->*/
 
@@ -91,22 +93,28 @@ a{
 		text-align: center;
 		padding: 10px 0;
 	}
-	.shopping h4 a{
-		color: #f824ab;
+	.shopping h4{
 		background-color: #15aba1;
+		margin: 0;
+		padding: 20px;
+		border-bottom: 1px solid #efefef;
+	}
+	.shopping h4 a{
+		color: #efefef;
 	}
 	.shopping li{
 		list-style: none;
-		background-color: #15aba1;
-		border-bottom: 1px solid #efefef;
+		background-color: #bbf2f3;
+		border-bottom: 1px solid #15aba1;
 		padding: 30px 0;
 	}
 	.shopping li a{
-		color: #efefef;
+		color: #15aba1;
 	}
-	.shopping li a:hover{
+	/*.shopping li:hover{
 		background-color: #fb92d5;
-	}
+		color: #efefef;
+	}*/
 
 } 
 

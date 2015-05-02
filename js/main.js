@@ -64,4 +64,57 @@ $(document).ready(function ($) {
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
+
+            $('.hover').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink').css('color', '#15aba1');
+            });
+
+            $('.hover2').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink2').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink2').css('color', '#15aba1');
+            });
+
+            $('.hover3').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink3').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink3').css('color', '#15aba1');
+            });
+
+            $('.hover4').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink4').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink4').css('color', '#15aba1');
+            });
+
+            $('.hover5').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink5').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink5').css('color', '#15aba1');
+            });
+
+            $('.hover6').hover(function(){
+                $(this).css('backgroundColor', '#fb92d5');
+                $('.shopLink6').css('color', '#efefef');
+            }, function(){
+                $(this).css('backgroundColor', '#bbf2f3');
+                $('.shopLink6').css('color', '#15aba1');
+            });
+
+            $('.catToggle').click(function(e){
+                e.preventDefault();
+                $('.hide').slideToggle('slow');
+            });
 });
