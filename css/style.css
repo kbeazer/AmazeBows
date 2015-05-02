@@ -23,6 +23,7 @@ h2, h3, h4, a, p{
 }
 .slides{
 	width: 100%;
+	height: 350px;
 }
 /*<----- Media Queries ----->*/
 
