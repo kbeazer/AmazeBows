@@ -7,6 +7,9 @@ body{
 	margin: 0 auto;
 	background-color: #bbf2f3;
 }
+h2, a, p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
 .amazeLogo{
 	max-width: 80%;
 }
@@ -22,8 +25,40 @@ body{
 @media only screen and (max-width: 40em){
 	/* max-width 640px, mobile-only styles, use when QAing mobile issues */
 	.container{
-	max-width: 100%;
+	width: 100%;
 	}
+	header{
+		text-align: center;
+	}
+	.amazeLogo{
+		padding-top: 20px;
+	}
+	.tagline{
+		color: #f824ab;
+		margin: 0;
+	}
+	nav ul{
+		text-align: center;
+		padding: 10px 0;
+		background-color: #15aba1;
+	}
+	nav ul li{
+		list-style: none;
+		display: inline-block;
+		/*width: 20%;*/
+		margin: 0;
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: #efefef;
+		background-color: #fb92d5;
+		padding: 10px;
+	}
+	.spotlight{
+		background-color: #fff;
+		padding: 10PX 0;
+	}
+
 } 
 
 /* Medium Screens*/
