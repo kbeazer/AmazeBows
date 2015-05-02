@@ -59,7 +59,6 @@ h2, h3, h4, a, p{
 		background-color: #fb92d5;
 	}
 	.spotlight{
-		background-color: #bbf2f3;
 		padding: 10px 0;
 	}
 	.spotlight h3{
@@ -68,8 +67,9 @@ h2, h3, h4, a, p{
 		padding-left: 10px;
 	}
 	.shopping{
+		background-color: #bbf2f3;
 		text-align: center;
-		padding: 0;
+		padding: 10px 0;
 	}
 	.shopping h4{
 		color: #f824ab;
@@ -78,11 +78,14 @@ h2, h3, h4, a, p{
 		list-style: none;
 		background-color: #15aba1;
 		border-bottom: 1px solid #efefef;
-		padding: 20px 0;
+		padding: 30px 0;
 	}
 	.shopping li a{
 		text-decoration: none;
 		color: #efefef;
+	}
+	.shopping li a:hover{
+		background-color: #fb92d5;
 	}
 
 } 
