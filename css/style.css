@@ -37,7 +37,7 @@ h2, a, p{
 	.tagline{
 		color: #f824ab;
 		margin: 0;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	nav ul{
 		text-align: center;
@@ -53,8 +53,10 @@ h2, a, p{
 	nav ul li a{
 		text-decoration: none;
 		color: #efefef;
+		padding: 10px 5px;
+	}
+	nav ul li a:hover{
 		background-color: #fb92d5;
-		padding: 10px;
 	}
 	.spotlight{
 		background-color: #fff;
