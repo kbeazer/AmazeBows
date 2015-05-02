@@ -19,7 +19,10 @@ h2, h3, h4, a, p{
 }
 #slider1_container{
 	position: relative; 
-	height: 320px;
+	height: 350px;
+}
+.slides{
+	width: 100%;
 }
 /*<----- Media Queries ----->*/
 
