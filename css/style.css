@@ -64,6 +64,40 @@ h2, a, p{
 /* Medium Screens*/
 @media only screen and (min-width: 40.063em){
 	/* min-width 641px, medium screens */
+	.container{
+	width: 100%;
+	}
+	header{
+		text-align: center;
+	}
+	.amazeLogo{
+		padding-top: 20px;
+	}
+	.tagline{
+		color: #f824ab;
+		margin: 0;
+	}
+	nav ul{
+		text-align: center;
+		padding: 10px 0;
+		background-color: #15aba1;
+	}
+	nav ul li{
+		list-style: none;
+		display: inline-block;
+		/*width: 20%;*/
+		margin: 0;
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: #efefef;
+		background-color: #fb92d5;
+		padding: 10px;
+	}
+	.spotlight{
+		background-color: #fff;
+		padding: 10PX 0;
+	}
  } 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
 	/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
