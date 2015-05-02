@@ -1,12 +1,13 @@
 body{
 	width: 100%;
 	margin: 0 auto;
+	font-size: 100%;
 }
-.container{
+/*.container{
 	width: 80%;
 	margin: 0 auto;
 	background-color: #bbf2f3;
-}
+}*/
 h2, a, p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
