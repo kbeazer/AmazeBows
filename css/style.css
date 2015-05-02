@@ -32,6 +32,9 @@ a{
 .hide, .hide2, .hide3{
 	display: none;
 }
+.active{
+	background-color: #fa92d4;
+}
 
 /*<----- Media Queries ----->*/
 
@@ -51,9 +54,10 @@ a{
 		padding-top: 20px;
 	}
 	.tagline{
-		color: #f824ab;
+		font-family: 'Crafty Girls', cursive;
+		color: #9f6351;
 		margin: 0;
-		font-size: 24px;
+		font-size: 22px;
 	}
 	nav ul{
 		text-align: center;
@@ -133,6 +137,19 @@ a{
 	}
 	footer{
 		text-align: center;
+		color: #9f6351;
+	}
+	.aboutUs{
+		padding: 0 20px;
+	}
+	.aboutUs h3{
+		font-family: 'Crafty Girls', cursive;
+		/*color: #9f6351;*/
+		color: #fa92d4;
+	}
+	.aboutUs p{
+		color: #9f6351;
+		line-height: 30px;
 	}
 } 
 
