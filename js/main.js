@@ -132,7 +132,7 @@ $(document).ready(function ($) {
                     $('.hide2').slideToggle('slow');  
                 }
                 else{
-                    $('.hide1').hide();
+                    $('.hide').hide();
                     $('.hide3').hide();
                     $('.hide2').slideToggle('slow');
                 }    
@@ -144,7 +144,7 @@ $(document).ready(function ($) {
                     $('.hide3').slideToggle('slow');  
                 }
                 else{
-                    $('.hide1').hide();
+                    $('.hide').hide();
                     $('.hide2').hide();
                     $('.hide3').slideToggle('slow');
                 }    
