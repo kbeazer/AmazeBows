@@ -116,6 +116,15 @@ a{
 	.shopping li a{
 		color: #15aba1;
 	}
+	.bowMake{
+		text-align: center;
+		background-color: #15aba1;
+		border-bottom: 1px solid #efefef;
+		padding: 20px;
+	}
+	.bowMake a{
+		color: #efefef;
+	}
 	.cusCare{
 		text-align: center;
 		padding: 0;
