@@ -20,7 +20,6 @@ h2, h3, h4, a, p{
 #slider1_container{
 	position: relative; 
 	height: 320px;
-	text-align: center;
 }
 /*<----- Media Queries ----->*/
 
