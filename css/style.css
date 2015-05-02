@@ -37,7 +37,7 @@ h2, a, p{
 	.tagline{
 		color: #f824ab;
 		margin: 0;
-		font-size: 30px;
+		font-size: 28px;
 	}
 	nav ul{
 		text-align: center;
@@ -47,7 +47,7 @@ h2, a, p{
 	nav ul li{
 		list-style: none;
 		display: inline-block;
-		font-size: 20px;
+		font-size: 18px;
 		margin: 0;
 	}
 	nav ul li a{
