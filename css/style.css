@@ -8,7 +8,7 @@ body{
 	margin: 0 auto;
 	background-color: #bbf2f3;
 }*/
-h2, a, p{
+h2, h3, h4, a, p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .amazeLogo{
@@ -59,8 +59,30 @@ h2, a, p{
 		background-color: #fb92d5;
 	}
 	.spotlight{
-		background-color: #fff;
-		padding: 10PX 0;
+		background-color: #bbf2f3;
+		padding: 10px 0;
+	}
+	.spotlight h3{
+		color: #f824ab;
+		margin-top: 0;
+		padding-left: 10px;
+	}
+	.shopping{
+		text-align: center;
+		padding: 0;
+	}
+	.shopping h4{
+		color: #f824ab;
+	}
+	.shopping li{
+		list-style: none;
+		background-color: #15aba1;
+		border-bottom: 1px solid #efefef;
+		padding: 20px 0;
+	}
+	.shopping li a{
+		text-decoration: none;
+		color: #efefef;
 	}
 
 } 
