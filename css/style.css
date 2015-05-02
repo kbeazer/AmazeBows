@@ -29,7 +29,7 @@ a{
 	width: 100%;
 	height: 350px;
 }
-.hide{
+.hide, .hide2{
 	display: none;
 }
 
@@ -111,11 +111,6 @@ a{
 	.shopping li a{
 		color: #15aba1;
 	}
-	/*.shopping li:hover{
-		background-color: #fb92d5;
-		color: #efefef;
-	}*/
-
 } 
 
 /* Medium Screens*/

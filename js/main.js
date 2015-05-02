@@ -117,4 +117,9 @@ $(document).ready(function ($) {
                 e.preventDefault();
                 $('.hide').slideToggle('slow');
             });
+
+            $('.careToggle').click(function(e){
+                e.preventDefault();
+                $('.hide2').slideToggle('slow');
+            });
 });
